@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h2 class="glow">STUDENT ENROLLMENT FORM</h2>
+      <section>
+        <div class="form"> 
+            <form>
+                <h4>Student Enrollment Form</h4>
+                <div class="labels">
+                    <label for="name" class="inputs-labels">FULL-NAME:</label>
+                    <input type="text" name="name" id="name" class="inputs" placeholder="Enter your full-name">
+                </div>
+                <div class="labels">
+                    <label for="email" class="inputs-labels">EMAIL-Id:</label>
+                    <input type="email" name="email" id="email" class="inputs" placeholder="Enter your email address">
+                </div>
+                <div class="labels">
+                    <label for="website" class="inputs-labels"> WEBSITE-LINK:</label>
+                    <input type="url" name="website" id="website" class="inputs" placeholder="Enter your website url or link">
+                </div>
+                <div>
+                    <label for="image" class="inputs-labels">UPLOAD-IMAGE:</label>
+                    <input type="file" name="image" id="image" class="inputs">
+                </div>
+                <div class="radio">
+                    <label class="radio-labels">GENDER:</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male" class="gen">MALE</label><br>
+                    <div class="gender2">
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">FEMALE</label><br>
+                        <input type="radio" name="gender" id="others" value="others">
+                        <label for="others">OTHER</label></div>
+                </div>
+                <div class="radio">
+                    <label class="radio-labels">SKILLS:</label>
+                    <input type="checkbox" id="skill1" name="skill1" value="C LANGUAGE">
+                    <label for="skill1" color="rgb(38, 0, 255)" class="gen">C/C++</label><br>
+                    <div class="gender2"><input type="checkbox" id="skill2" name="skill2" value="PYTHON">
+                        <label for="skill2">PYTHON</label><br>
+                        <input type="checkbox" id="skill3" name="skill3" value="JAVA">
+                        <label for="skill3">JAVA</label><br>
+                        <input type="checkbox" id="skill4" name="skill4" value="HTML">
+                        <label for="skill4">HTML</label></br>
+                        <input type="checkbox" id="skill5" name="skill5" value="CSS">
+                        <label for="skill5">CSS</label></br>
+                        <input type="checkbox" id="skill6" name="skill6" value="JAVA-SCRIPT">
+                        <label for="skill6">JAVA-SCRIPT</label></br>
+                    </div>
+                </div>
+                <div>
+                    <button type="reset" class="btn-danger" value="Cancel">RESET</button>
+                    <input type="submit" value="Enroll" class="register-btn">
+                </div>       
+            </form>
+        </div>
+        <div class="display">
+            <h4>REGISTERED STUDENTS DETAILS</h4>
+            <hr>
+            <div class="cards">
+         </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+      <footer class="footer">
+        <div class="footerContainer">
+            <p class="copyright">Copyright © 2022 <a href="https://github.com/shivam28072001" target="_blank">
+                    Shivam Srivastava.</a> All Right Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
